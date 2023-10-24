@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <script src="fillter.js" defer></script>
+    <script src="gsap\gsap.min.js"defer></script>    
+<script src="gsap\ScrollTrigger.min.js"defer></script>    
+<script src="gsap\ScrollSmoother.min.js"defer></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="header-top">
+                <div class="menu2">
+                  <div class="container">
+                     <div class="header-top-inner">
+                      <div class="header-logo logo">
+                          <a href="index.html"><img src="img\Vector.svg" alt="logo"></a>
+                      </div>
+                      <div class="header-nav">
+                          <nav class="header-nav">
+              <ul class="header-nav-list">
+                  <li class="header-nav-item"><a href="#" class="header-nav-link">NEW CARS</a></li>
+                  <li class="header-nav-item"><a href="#" class="header-nav-link">PRE-OWNED CARS</a></li>
+                  <li class="header-nav-item"><a href="#" class="header-nav-link">FINANCE</a></li>
+                  <li class="header-nav-item"><a href="#" class="header-nav-link">LEASE VS BUY</a></li>
+                  <li class="header-nav-item"><a href="contactUs.html" class="header-nav-link">CONTACT US</a></li>
+              </ul>
+                          </nav>
+                      </div>
+                     </div>
+                    </div>
+                 </div>
+                </div>
+            <section class="section-offset catalog">
+                <div class="container catalog__container">
+                    <h1 class="margin-reset catalog__title">
+                        Choose your car
+                    </h1>
+                    <div class="catalog__tab tab">
+                        <ul class="list-reset tab__list">
+                            <li class="tab__item">
+                                <button class="btn-reset tab__btn " data-id="car">
+                                    Car and Minivan
+                                </button>
+                            </li>
+                            <li class="tab__item">
+                                <button class="btn-reset tab__btn" data-id="trucks">
+                                    Trucks
+                                </button>
+                            </li>
+                            <li class="tab__item">
+                                <button class="btn-reset tab__btn" data-id="crossovers">
+                                    Crossovers & SUVs
+                                </button>
+                            </li>
+                            <li class="tab__item">
+                                <button class="btn-reset tab__btn" data-id="electrified">
+                                    Electrified
+                                </button>
+                            </li>
+                        </ul>
+                       <div class="tab__contents">
+                        <div class="tab__content tab__content--active" data-tab-target="car">
+                            <div class=" car tab__props">
+                                <div class="tab__img">
+                                    <img class="img-minicar" src="img\crown (1).jpg" alt="">
+                                </div>
+                                <h6 class="tab__heading">Toyota Crown 2023</h6>
+                                <div class="tab__descr">
+                                    starting from $ 39900
+                                    
+                                </div>
+        
+                                <div class="tab__price">$ 650/mo</div>
+                                <button class="btn-reset tab__button">
+                                    see details
+                                </button>
+                            </div>
+                            <div class=" electrified tab__props">
+                                <div class="tab__img">
+                                    <img class="img-minicar" src="img\prius prime(2).jpg" alt="">
+                                </div>
+                                <h6 class=" tab__heading">Prius Prime 2023</h6>
+                                <div class="tab__descr">
+                                    starting from $ 39900
+                                    
+                                </div>
+        
+                                <div class="tab__price">$ 450/mo</div>
+                                <button class="btn-reset tab__button">
+                                    see details
+                                </button>
+                            </div>
+                            <div class=" electrified tab__props">
+                                <div class="tab__img">
+                                    <img class="img-minicar" src="img\prius (3).jpg" alt="">
+                                </div>
+                                <h6 class="tab__heading">Toyota Prius 2023</h6>
+                                <div class="tab__descr">
+                                    starting from $ 39900
+                                    
+                                </div>
+        
+                                <div class="tab__price">$ 400/mo</div>
+                                <button class="btn-reset tab__button">
+                                    see details
+                                </button>
+                            </div>
+                            <div class=" crossovers tab__props">
+                                <div class="tab__img">
+                                    <img class="img-minicar" src="img\hyndai (4).jpg" alt="">
+                                </div>
+                                <h6 class="tab__heading">Hyundai Kona 2023</h6>
+                                <div class="tab__descr">
+                                    starting from $ 39900
+        
+                                </div>
+        
+                                <div class="tab__price">$ 510/mo</div>
+                                <button class="btn-reset tab__button">
+                                    see details
+                                </button>
+                            </div>
+                            <div class=" crossovers tab__props">
+                                <div class="tab__img">
+                                    <img class="img-minicar" src="img\ford (5).jpg" alt="">
+                                </div>
+                                <h6 class="tab__heading">Ford Explorer 2023</h6>
+                                <div class="tab__descr">
+                                    starting from $ 39900
+                                    
+                                </div>
+        
+                                <div class="tab__price">$1,013/mo</div>
+                                <button class="btn-reset tab__button">
+                                    see details
+                                </button>
+                            </div>
+                            <div class=" trucks tab__props">
+                                <div class="tab__img">
+                                    <img class="img-minicar" src="img\santafe (6).jpg" alt="">
+                                </div>
+                                <h6 class="tab__heading">Santa  Fe 2023</h6>
+                                <div class="tab__descr">
+                                    starting from $ 39900
+                                   
+                                </div>
+        
+                                <div class="tab__price">$ 739/mo</div>
+                                <button class="btn-reset tab__button">
+                                    see details
+                                </button>
+                            </div>
+                            <div class=" car tab__props">
+                                <div class="tab__img">
+                                    <img class="img-minicar" src="img\kia rio (7).jpg" alt="">
+                                </div>
+                                <h6 class="tab__heading">KIA Niro 2023</h6>
+                                <div class="tab__descr">
+                                    starting from $ 33600
+                                   
+                                </div>
+        
+                                <div class="tab__price">$ 554/mo</div>
+                                <button class="btn-reset tab__button">
+                                    see details
+                                </button>
+                            </div>
+                            <div class=" trucks tab__props">
+                                <div class="tab__img">
+                                    <img class="img-minicar" src="img\chevrolet (8).jpg" alt="">
+                                </div>
+                                <h6 class="tab__heading">Chevrolet Silverado</h6>
+                                <div class="tab__descr">
+                                    starting from $ 62260
+        
+                                </div>
+        
+                                <div class="tab__price">$1,032/mo</div>
+                                <button class="btn-reset tab__button">
+                                    see details
+                                </button>
+                            </div>
+                            <div class=" car tab__props">
+                                <div class="tab__img">
+                                    <img class="img-minicar" src="img\honda (9).jpg" alt="">
+                                </div>
+                                <h6 class="tab__heading">Honda CR-V 2023</h6>
+                                <div class="tab__descr">
+                                    starting from $ 35650
+                                   
+                                </div>
+        
+                                <div class="tab__price">$591/mo</div>
+                                <button class="btn-reset tab__button">
+                                    see details
+                                </button>
+                            </div>
+                            <div class=" crossovers tab__props">
+                                <div class="tab__img">
+                                    <img class="img-minicar" src="img\honda tyson (10).jpg" alt="">
+                                </div>
+                                <h6 class="tab__heading">Hyundai Tucson</h6>
+                                <div class="tab__descr">
+                                    starting from $ 31885
+                                </div>
+        
+                                <div class="tab__price">$ 528/mo</div>
+                                <button class="btn-reset tab__button">
+                                    see details
+                                </button>
+                            </div>
+                            <div class=" trucks tab__props">
+                                <div class="tab__img">
+                                    <img class="img-minicar" src="img\chevrolet 2 (11).jpg" alt="">
+                                </div>
+                                <h6 class="tab__heading">Chevrolet Equinox </h6>
+                                <div class="tab__descr">
+                                    starting from $ 28430
+                                    
+                                </div>
+        
+                                <div class="tab__price">$ 471/mo</div>
+                                <button class="btn-reset tab__button">
+                                    see details
+                                </button>
+                            </div>
+                            <div class=" electrified tab__props">
+                                <div class="tab__img">
+                                    <img class="img-minicar" src="img\jeep (12).jpg" alt="">
+                                </div>
+                                <h6 class="tab__heading">Jeep Wrangler 2023</h6>
+                                <div class="tab__descr">
+                                    starting from $ 60000
+                                </div>
+        
+                                <div class="tab__price">$ 997/mo</div>
+                                <button class="btn-reset tab__button">
+                                    see details
+                                </button>
+                            </div>
+                        </div>
+                        
+                        </div>
+                       </div>
+                        <button class="catalog__more-btn btn-reset btn-more">SHOW MORE</button>
+                    </div>
+                
+            </section>
+            <section class="news">
+                <div class="container news__container">
+                    <div class="news__content">
+                        <div class="news__blog">
+                            <div class="news__img">
+                                <img src="img\Rectangle 12.png" alt="">
+                            </div>
+                            <h5 class="news__title">An easier way to buy your next Toyota</h5>
+                            <button class="btn-reset news__btn-more">more</button>
+                        </div>
+                        <div class="news__blog">
+                            <div class="news__img">
+                                <img src="img\Rectangle 12 (1).png" alt="">
+                            </div>
+                            <h5 class="news__title">An easier way to buy your next Toyota</h5>
+                            <button class="btn-reset news__btn-more">more</button>
+                        </div>
+                    </div>
+                    <button class="catalog__more-btn btn-reset btn-more">SHOW MORE</button>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="container">
+                  <div class="footer-inner">
+                    <div class="footer-top-column">
+                      <div class="footer-col"><h3 class="footer-title"><a href="">Products</a></h3>
+                      <ul class="footer-list">
+                        <li class="footer-item"><a href="">Used</a></li>
+                        <li class="footer-item"><a href="">New</a></li>
+                        <li class="footer-item"><a href="">Sell your car</a></li>
+                        
+                      </ul>
+                      </div>
+                      <div class="footer-col"><h3 class="footer-title"><a href="">Resources</a></h3>
+                        <ul class="footer-list">
+                          <li class="footer-item"><a href="">Blog</a></li>
+                          <li class="footer-item"><a href="">FAQ</a></li>
+                          <li class="footer-item"><a href="">Contact us</a></li>
+                          
+                        </ul>
+                          
+                        </ul>
+                      </div>
+                      <div class="footer-col"><h3 class="footer-title"><a href="">Work With TrueCar</a></h3>
+                        <ul class="footer-list">
+                          <li class="footer-item"><a href="">Dealers</a></li>
+                          <li class="footer-item"><a href="">Partners</a></li>
+                       
+                          
+                        </ul>
+                      </div>
+                      <div class="footer-col"><h3 class="footer-title"><a href="">About</a></h3>
+                        <ul class="footer-list">
+                          <li class="footer-item"><a href="#">About</a></li>
+                          <li class="footer-item"><a href="">Team</a></li>
+                          <li class="footer-item"><a href="">Careers</a></li>
+                       
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="markets">
+            <div class="appStorebtn"><a href="https://www.apple.com/ru/app-store/"target="_blank"><img src="img\app-store-5768091a665de29ed90932b12cc1dc34 1.png" alt="Appstore"></a></div>
+                 <div class="appStorebtn"><a href="https://play.google.com/store/games?hl=ru&gl=US&pli=1"target="_blank"><img src="img\google-play-1b282a5faa8753db97e49dd35e98dd25 1.png" alt="googlePlay"></a></div>   
+            </div>
+            <div class="bottom-text">For questions about the TrueCar Auto Buying Service please call 1-888-878-3227.
+              Certified Dealers are contractually obligated by TrueCar to meet certain customer service requirements and complete the TrueCar Dealer Certification Program.
+              TrueCar does not broker, sell, or lease motor vehicles. Unless otherwise noted, all vehicles shown on this website are offered for sale by licensed motor vehicle dealers. All vehicles are subject to prior sale. By accessing this website, you agree to the TrueCar Terms of Service and Privacy Policy.</div>
+                 <div class="foot-info">
+                  <ul class="foot-infolist">
+                    <li class="foot-info-item"><a href="">Terms of Service</a></li>
+                    <li class="foot-info-item"><a href="">Privacy Policy</a></li>
+                    <li class="foot-info-item"><a href="">Do Not Sell My Personal Information</a></li>
+                  </ul>
+                 </div> 
+            </div>
+                </div>
+              </footer>
+        </div>
+    </div>
+    </div>
+        
+    
+</body>
+
+</html>
